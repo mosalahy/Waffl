@@ -1,0 +1,11 @@
+/* Global styles - RTL friendly basic */
+:root{
+  --bg:#f8fafc;
+  --muted:#6b7280;
+}
+html,body,#__next{height:100%}
+body{margin:0;background:var(--bg);font-family:Cairo, sans-serif}
+.container{padding:20px}
+.title{font-size:24px}
+.cards{display:flex;gap:12px;margin-top:12px}
+.card{background:#fff;padding:16px;border-radius:8px;box-shadow:0 1px 3px rgba(0,0,0,0.08)}
